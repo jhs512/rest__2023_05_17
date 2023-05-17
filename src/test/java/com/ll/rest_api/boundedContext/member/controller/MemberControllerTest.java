@@ -34,7 +34,7 @@ class MemberControllerTest {
         // When
         ResultActions resultActions = mvc
                 .perform(
-                        post("/member/login")
+                        post("/api/v1/member/login")
                                 .content("""
                                         {
                                             "username": "user1",
@@ -60,7 +60,7 @@ class MemberControllerTest {
         // When
         ResultActions resultActions = mvc
                 .perform(
-                        get("/member/me")
+                        get("/api/v1/member/me")
                 )
                 .andDo(print());
 
