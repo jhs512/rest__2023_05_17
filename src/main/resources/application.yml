@@ -26,3 +26,6 @@ custom:
     baseUrl: http://localhost
   jwt:
     secretKey: abcdefghijklmnopqrstuvwxyz0123456789abcdefghijklmnopqrstuvwxyz0123456789
+springdoc:
+  swagger-ui:
+    enabled: true
